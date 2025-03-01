@@ -45,12 +45,4 @@ Proyek ini bertujuan untuk mengimplementasikan kecerdasan buatan (AI) dalam meng
 
 ---
 
-### **Persyaratan**
-- Google Colab
-- Python 3.x
-- Library: `scikit-learn`, `pandas`, `matplotlib`
-
-### **Catatan**
-- Pastikan semua dependensi telah terinstal agar kode dapat berjalan dengan lancar.
-- Jika mengalami kendala, periksa kembali dependensi atau pastikan file yang diperlukan telah diunggah dengan benar ke Google Colab.
 
