@@ -1,0 +1,2 @@
+# PRAKTIIKUM_AI_WORKFLOW
+Raja Naufal Fadhil_2306020
