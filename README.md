@@ -1,4 +1,4 @@
-# PRAKTIIKUM_AI_WORKFLOW
+# PRAKTIIKUM_
 Raja Naufal Fadhil_2306020
 
 ## **Analisis dan Prediksi Penjualan Produk dengan Kecerdasan Buatan**
