@@ -1,31 +1,63 @@
 # PRAKTIIKUM_AI_WORKFLOW
 Raja Naufal Fadhil_2306020
-Deskripsi Proyek
-Proyek ini bertujuan untuk mengimplementasikan kecerdasan buatan (AI) dalam menganalisis serta memprediksi penjualan produk. Proses pengembangannya mencakup beberapa tahapan utama sebagai berikut:
 
-Pembuatan Dataset – Menyusun dataset penjualan dalam format CSV yang memuat informasi terkait produk, jumlah penjualan, stok, dan harga satuan.
-Pembersihan dan Pengolahan Data – Melakukan pemrosesan data guna memastikan kelengkapan, kebersihan, serta kesiapan dataset untuk digunakan dalam model AI.
-Pelatihan Model AI – Menerapkan algoritma Decision Tree Classifier untuk memprediksi kebutuhan restock produk berdasarkan data penjualan yang tersedia.
-Prediksi dan Visualisasi – Menggunakan model yang telah dilatih untuk melakukan prediksi serta menyajikan visualisasi hubungan antara jumlah penjualan, stok, dan keuntungan.
-Instruksi Menjalankan Kode di Google Colab
-Membuka Google Colab
+Analisis dan Prediksi Penjualan Produk dengan Kecerdasan Buatan
+
+Deskripsi Proyek
+
+Proyek ini bertujuan untuk mengimplementasikan kecerdasan buatan (AI) dalam menganalisis serta memprediksi penjualan produk. Proses yang dilakukan mencakup pembuatan dataset, pembersihan data, pelatihan model AI menggunakan Decision Tree Classifier, serta visualisasi hasil prediksi.
+
+Tahapan Implementasi
+
+Pembuatan Dataset
+
+Dataset dibuat dalam format CSV yang berisi informasi produk, jumlah penjualan, stok, dan harga satuan.
+
+Pembersihan dan Pengolahan Data
+
+Memastikan data dalam kondisi bersih, lengkap, dan siap digunakan untuk pelatihan model AI.
+
+Pelatihan Model AI
+
+Menggunakan algoritma Decision Tree Classifier untuk memprediksi apakah suatu produk perlu di-restock berdasarkan data penjualan yang tersedia.
+
+Prediksi dan Visualisasi
+
+Menggunakan model yang telah dilatih untuk membuat prediksi serta menyajikan visualisasi hubungan antara jumlah terjual, stok, dan keuntungan.
+
+Cara Menjalankan Kode di Google Colab
+
+1. Membuka Google Colab
 
 Akses Google Colab melalui peramban.
+
 Pilih opsi "Unggah" dan unggah file praktikum_ai.ipynb.
-Menjalankan Notebook
+
+2. Menjalankan Notebook
 
 Jalankan setiap sel kode secara berurutan.
-Jika terdapat dependensi tambahan yang diperlukan, eksekusi perintah berikut pada sel kode:
-python
-Copy
-Edit
+
+Jika terdapat dependensi tambahan yang diperlukan, jalankan perintah berikut di dalam sel kode:
+
 !pip install scikit-learn
-Mengakses File di Google Drive (Opsional)
+
+3. Mengakses File di Google Drive (Opsional)
 
 Jika dataset atau model tersimpan di Google Drive, hubungkan akun dengan perintah berikut:
-python
-Copy
-Edit
+
 from google.colab import drive
 drive.mount('/content/drive')
-Pastikan seluruh dependensi telah terinstal dan file yang diperlukan telah diunggah dengan benar agar kode dapat dijalankan tanpa kendala. Jika terjadi masalah, periksa kembali dependensi dan ketersediaan file di Google Colab.
+
+Persyaratan
+
+Google Colab
+
+Python 3.x
+
+Library: scikit-learn, pandas, matplotlib
+
+Catatan
+
+Pastikan semua dependensi telah terinstal agar kode dapat berjalan dengan lancar.
+
+Jika mengalami kendala, periksa kembali dependensi atau pastikan file yang diperlukan telah diunggah dengan benar ke Google Colab.
